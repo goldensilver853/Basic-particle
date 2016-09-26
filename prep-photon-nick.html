@@ -160,17 +160,6 @@ Get this from the settings area when logged into <a href="http://particle.io/bui
     sendToSpark('d7-send-0')
 }">
   
-<input type="button" value="d0-send-1" onClick="{
-    sendToSpark('d0-send-1')
-}">
-
-<input type="button" value="a7-send-70" onClick="{
-    sendToSpark('a7-send-70')
-}">
-   
-<input type="button" value="a7-send-0" onClick="{
-    sendToSpark('a7-send-0')
-}">
 
 
 
@@ -188,6 +177,40 @@ Get this from the settings area when logged into <a href="http://particle.io/bui
 <input type="button" value="a4-send-255" onClick="{
     sendToSpark('a4-send-255')
 }">
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+<input type="button" value="LED On" onClick="{
+    sendToSpark('d0-send-1')
+}">
+
+<input type="button" value="LED Off" onClick="{
+    sendToSpark('d0-send-0')
+}">
+
+<input type="button" value="Motor at 25% Speed" onClick="{
+    sendToSpark('a7-send-70')
+}">
+   
+<input type="button" value="Stop the motor" onClick="{
+    sendToSpark('a7-send-0')
+}">
+   
+<input type="button" value="Servo at 110 degrees" onClick="{
+    sendToSpark('a3-send-110')
+}">
+   
+<input type="button" value="Servo at 0 degreees" onClick="{
+    sendToSpark('a3-send-0')
+}">
+   
+<input type="button" value="Read the value of the Light Sensor" onClick="{
+    sendToSpark('a3-read')
+}"><br>
+
     
 Note: PWM only on A4, A5 presently<br>
 
