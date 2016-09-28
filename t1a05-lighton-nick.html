@@ -137,9 +137,7 @@ Get this from the settings area when logged into <a href="http://particle.io/bui
     sendToSpark('a0-read')
 }">
   
-
-
-o
+<br>
 <input type="button" value="Turn the LED on" onClick="{
     sendToSpark('d0-send-1')
 }"><br>
@@ -151,18 +149,6 @@ o
 }">
 
 <br>
-
-Note: PWM only on A4, A5 presently<br>
-
-<br><br>
-
-<div width="400" height="200" name="myDivName" id="myDivId"> output here </div><br>
-
-<input type=button id="myToVolts" value="Convert Sensor reading into Volts" onclick="{
-  var myTemp = parseFloat(getElementById('myDivId').innerHTML)
-  document.all.myCalc1.value = (myTemp * 3.3 / 4095).toFixed(2);
-}">
-: <input type=text id="myCalc1" value=0 size=5>Volts <br><br><br>
 
 </font>
 </body>
