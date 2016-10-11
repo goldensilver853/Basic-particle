@@ -177,11 +177,11 @@ Get this from the settings area when logged into <a href="http://spark.io">http:
 }">
 <br><br>
 
-<input type="button" value="Motor B off" onClick="{
+<input type="button" value="Motor B counterclockwise" onClick="{
     sendToSpark('d0-send-0')
 }"><br>
   
-<input type="button" value="Motor B on" onClick="{
+<input type="button" value="Motor B clockwise" onClick="{
     sendToSpark('d0-send-1')
 }"><br>
 
@@ -200,7 +200,7 @@ Get this from the settings area when logged into <a href="http://spark.io">http:
 }"><br>
   
 <input type="button" value="Motor B 100% speed" onClick="{
-    sendToSpark('a1-send-100')
+    sendToSpark('a1-send-255')
 }"><br>
 
 <input type="button" value="Motor A 0% speed" onClick="{
